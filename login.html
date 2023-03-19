@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Inicio de Sesión</title>
+</head>
+<body  class="form-body">
+    <header>
+        <nav>
+            <!-- Esto es el icono de las barras para cuando se esconde el menu -->
+            <input type="checkbox" id="show-menu" class="hidden">
+            <label for="show-menu" class="menu_icon"><i class="fa fa-bars"></i></label>
+            <div class="header_menu">
+                <div class="logo"><a href="index.html"><img src="icon/icons8-capybara-48.png"  alt="">Enefty</a></div>
+            </div>
+        </nav>
+    </header>
+    <section class="formulario">
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Login</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline" class="lock-closed"></ion-icon>
+                        <ion-icon name="lock-open-outline" class="lock-open"></ion-icon>
+                        <input type="password" required>
+                        <label for="">Contraseña</label>
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Recuerdame<a href="#">¿Has olvidado tu contraseña?</a></label>
+                
+                    </div>
+                    <button>Log in</button>
+                    <div class="register">
+                        <p>¿No tienes una cuenta?<a href="singup.html">Regístrate</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Iconos ionic.io-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>    
+</body>
+</html>

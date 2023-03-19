@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<!--Librería para iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="icon/icons8-capybara-48.png">
+
+	<title>Enefty</title>
+</head>
+<body>
+	<div class="wrapper">
+		<!--Header: contendrá la cabezera de la página-->
+		<header>
+			<nav>
+				<!-- Esto es el icono de las barras para cuando se esconde el menu -->
+				<input type="checkbox" id="show-menu" class="hidden">
+				<label for="show-menu" class="menu_icon"><i class="fa fa-bars"></i></label>
+                <div class="header_menu">
+					<div class="logo"><a href="#"><img src="icon/icons8-capybara-48.png"  alt="">Enefty</a></div>
+					<!-- Menu principal -->
+					<ul class="header_leftmenu">
+						<li><a href="#">Home</a></li>
+						<li><a href="#NOTICIAS">Noticias</a></li>
+						<li><a href="#PRODUCTOS">Prodructos</a></li>
+						<li><a href="#SERVICIOS">Servicios</a></li>
+                   		<li><a href="#CONTACTO">Contacto</a></li>
+					</ul>
+				</div>
+                <!-- Menu para login/singup -->
+				<div class="header_rightmenu">
+					<a class="login" href="login.html">Log in</a>
+                	<a class="singup" href="singup.html">Sing up</a>
+				</div>
+			</nav>
+		</header>
+		<!-- main: caja que contendrá el contenedor principal de nuestra web (landing page) -->
+		<main class="container">
+			<section id="main-container">
+                <article class="main-1">
+					<span class="morado">Más de 500.000 usuarios logeados</span>
+					<H1>LA PRIMERA PLATAFORMA CON <span>LICENCIA & SEGURIDAD</span> EN EL MUNDO NFTs</H1>
+					<p>Les traemos contenido coleccionable de todo tipo, desde tecnología,deportes e incluso marcas 
+						parandarles toda la utilidad en el mundo NFTs y el metaverso
+					</p>                  
+                </article>
+                <article class="main-2">
+					<img class="main-img1" src="img/colection-art1.png" alt="">
+                	<img class="main-img2" src="img/colection-monkey1.png" alt="">
+                	<img class="main-img3" src="img/colection-clone1.png" alt="">
+                </article>
+            </section>
+		</main>
+
+		<!-- Sección de noticias -->
+		<div class="container noticias" id="NOTICIAS">
+			<h2>Noticias</h2>
+			<section id="noticias">
+				<article class="noticia1-2">
+					<img src="img/tintin.jpg" alt="">
+					<div class="contenido-noticia">
+	  					<h3>
+							<a target="_blank" href="https://www.20minutos.es/noticia/5091091/0/lanza-los-dos-primeros-
+							activos-digitales-o-nft-s-con-la-imagen-de-tintin-que-se-venderan-por-hasta-750-euros-cada-uno/"> 
+							Lanzan los dos primeros activos digitales o NFT's con la imagen de Tintín, que se venderán por
+							hasta 750 euros cada uno</a>
+						</h3>
+	  					<p>En la presentación de los NFTs de Tintín, celebrada en Bruselas, el encargado del proyecto, 
+							Yves Février, explicó que con el lanzamiento de estos activos digitales buscan incursionarse 
+							n el campo de la innovación tecnológica y digital.
+						</p>
+	  					<a href="https://www.20minutos.es/noticia/5091091/0/lanza-los-dos-primeros-
+						  activos-digitales-o-nft-s-con-la-imagen-de-tintin-que-se-venderan-por-hasta-750-euros-cada-uno/">Leer más</a>
+					</div>
+				</article>
+				<article class="noticia1-2">
+					<img src="img/billgates.jpg" alt="">
+					<div class="contenido-noticia">
+	  					<h3><a target="_blank" href="https://www.20minutos.es/noticia/5077459/0/advertencia-bill-gates-famosos
+							-nft-criptomoned">La advertencia de Bill Gates sobre los famosos NFT y las criptomonedas </a>
+						</h3>
+	  					<p>El mercado de las criptomonedas se encuentra en una complicada situación. La debacle de la 
+							plataforma FTX, tras declararse en bancarrota hace apenas unos días, ha profundizado la 
+							inestabilidad de las criptodivisas, impactando directamente en el valor de algunas monedas 
+							digitales, como bitcoin y Ethereum
+						</p>
+	  					<a href="https://www.20minutos.es/noticia/5077459/0/advertencia-bill-gates-famosos
+						  -nft-criptomoned">Leer más</a>
+					</div>
+				</article>
+				<article class="noticia3">
+					<img src="img/meta.jpg" alt="">
+					<div class="contenido-noticia">
+	  					<h3><a target="_blank" href="https://www.20minutos.es/tecnologia/fabricantes/meta-deja-publicar-nft
+							-en-instagram-y-facebook-5046041/">Meta deja publicar NFT en Instagram y Facebook.<br> Todos los usuarios pueden compartir
+							 tanto los activos que hubiesen creado como los que se hubiesen comprado, así como vincular la criptocartera.</a>
+						</h3>
+	  					<p>Todos los usuarios de Facebook e Instagram ya pueden publicar y compartir sus NFT, una opción que 
+							solo estaba disponible para algunos perfiles seleccionados de ambas plataformas porque participaban 
+							en las pruebas internas.Meta aseguró que no se cobrarían tasas por publicar o compartir NFT en Instagram. 
+							"Al apoyar los NFT, nuestro objetivo es mejorar la accesibilidad, reducir las barreras de entrada y ayudar 
+							a que el espacio NFT sea más inclusivo para todas las comunidades", señala Meta
+						</p>
+	  					<a href="https://www.20minutos.es/tecnologia/fabricantes/meta-deja-publicar-nft-en-instagram-y-facebook
+						-5046041/">Leer más</a>
+					</div>
+				</article>
+  			</section>
+		</div>
+		<!-- Sección Productos -->
+		<div class="container colecciones" id="PRODUCTOS">
+			<h2>Colecciones</h2>
+			<section id="colecciones">
+				<div><img src="img/ali.jpg" alt=""><span>Muhamemad Ali</span></div>
+				<div class="hide"><img src="img/colection-clone1.png" alt=""><span>Clone X</span></div>
+				<div><img src="img/jason-heusier.jpg" alt=""><span>Jason Heusier</span></div>
+				<div class="hide"><img src="img/colection-monkey1.png" alt=""><span>Bored Ape Yacht</span></div>
+				<div class="hide"><img src="img/colection-art1.png" alt=""><span>Ani Mkhitaryan</span></div>
+			</section>
+	  </div>
+  		<!-- Sección de sabermas -->
+		<div class="container sabermas">
+			<h2>Saber Más</h2>
+  			<section id="sabermas">
+				<article>
+					<iframe controls width="1344" height="488" src="https://www.youtube.com/embed/0KrdRZVr-q4" 
+					title="¿Qué es un NFT?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+					encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</article>
+  			</section>
+		</div>
+		<!-- Sección de Cómo funciona -->
+		<div class="container comofunciona" id="SERVICIOS">
+			<h2>Cómo funciona</h2>
+			<section id="flipcard">
+			  <div class="card">
+				<!-- Parte delantera de la carta -->
+				<div class="face front">
+					<img src="img/metamask.jpg" alt="">
+					<h3>Crea/Vincula tu monedero</h3>
+				</div>
+				<!-- Parte trasera de la carta -->
+				<div class="face back">
+					<h3>Monedero</h3>
+					<p>Metamask es un monedero gratuito de crypto que se usa como extensión del navegador.<br>Lo primero que tienes que hacer es instalar el add-on en tu navegador en la pagina de Metamask. Para crear una cuenta, simplemente pulsa el icono del zorro en el navegador y selecciona "Try it Now".
+						Te preguntará si quieres crear una cuenta.<br>Ahora, apuntamos la seed phrase, que es lo más importante de todo el proceso. Es una frase que usaremos para restaurar el acceso a nuestra wallet en cualquier dispositivo.</p>
+					<div class="link"><a href="https://youtu.be/xuY5kJavZbc">Más información</a></div>
+				</div>
+			</div>
+			<div class="card">
+				<!-- Parte delantera de la carta -->
+				<div class="face front">
+					<img src="img/Crypto-Token-scaled.jpg" alt="">
+					<h3>Compra Tokens</h3>
+				</div>
+				<!-- Parte trasera de la carta -->
+				<div class="face back">
+					<h3>Tokens</h3>
+					<p>Visita la plataforma de Binance Fan Token e inicia sesión en tu cuenta de Binance. En "Equipos destacados",haz clic en [Comprar].<br>Selecciona el fan token de Binance que desees comprar, y elige tu método de pago preferido de la lista. 
+						<br>Ahora podrás comprar los fan tokens de Binance con tus monedas fiat preferidas. Selecciona una moneda fiat e ingresa la cantidad de tokens que quieres gastar.<br> El sistema calculará automáticamente la cantidad de tokens que puedes recibir y se transferirán automáticamente a tu billetera.</p>
+					<div class="link"><a href="https://youtu.be/_P5RjUCbcF0">Más información</a></div>
+				</div>
+			</div>
+			<div class="card">
+				<!-- Parte delantera de la carta -->
+				<div class="face front">
+					<img src="img/nft.jpg" alt="">
+					<h3>Elige tu NFT</h3>
+				</div>
+				<!-- Parte trasera de la carta -->
+				<div class="face back">
+					<h3>Compra un NFT</h3>
+					<p>Crea una cartera cripto y compra criptomonedas , la más común de ellas para comprar NFTs es la criptomoneda ETH. <br>Ahora, Conecta tu cripto cartera a una plataforma de mercado de NFTs como OpenSea y Seleccionas el NFT que deseas comprar.<br>Por último, procede a comprar el NFT.</p>
+					<div class="link"><a href="https://youtu.be/stvpGuQZslA">Más información</a></div>
+				</div>
+			</div>
+			</section>
+	  </div>
+ 		<!-- Sección de contacto -->
+		<div class="container contacto" id="CONTACTO">
+			<h2>Contacto</h2>
+  			<section>
+					<article class="datos">
+						<div class="datos-contacto">
+							<div>
+								<img src="icon/mail.png">
+								<p>webNFTsmadrid@gmail.com</p>
+							</div>
+							<div>
+								<img src="icon/phone.png">
+								<p>91-1234-567</p>
+							</div>
+							<div>
+								<img src="icon/instagram.png">
+								<p>@NFTsMadridfuture</p>
+							</div>
+						</div>						
+						<div class="form-contacto">
+							<div class="text-contacto">
+								<h4>Manténgase al día con lo último de Enefty</h4>
+								<p>Lanzamientos exclusivos de NFT, anuncios de la comunidad, 
+									obsequios y próximos eventos, todas las actualizaciones enviadas
+									 directamente a su bandeja de entrada. ¡Suscríbete hoy!</p>
+							</div>
+							<div class="mail">
+								<input type="email" required placeholder="Escribe tu email">
+								<button>Suscribirme</button>
+							</div>
+						</div> 
+					</article>
+					<article class="map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.354280704063!2d-3.7108319000000005!3d40.4231534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42286529e7c913%3A0x589c161ad3057f68!2sC%2F%20Gran%20V%C3%ADa%2C%20123%2C%2028013%20Madrid!5e0!3m2!1ses!2ses!4v1679166850155!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</article>
+  			</section>
+		</div>
+		<!-- footer: caja que contendrá el pie de página -->
+		<footer>
+			<div class="footer_container">
+				<div class="footer_logo">
+				  <a href="#"><img src="icon/icons8-capybara-48.png" alt=""></a>
+				</div>
+				<div class="footer_links">
+				  <ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#NOTICIAS">Noticias</a></li>
+					<li><a href="#PRODUCTOS">Productos</a></li>
+					<li><a href="#SERVICIOS">Servicios</a></li>
+					<li><a href="#CONTACTO">Contacto</a></li>
+				  </ul>
+				</div>
+				<div class="footer_social">
+				  <ul>
+					<li><a href="https://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+				  </ul>
+				</div>
+			</div>
+			<div class="footer_disclaimer">
+				<p>Todos los derechos reservados &copy; 2023 Enefty</p>
+			</div>
+			
+		</footer>
+	</div>
+
+</body>
+</html>
